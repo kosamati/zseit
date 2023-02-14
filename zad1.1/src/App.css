@@ -1,0 +1,128 @@
+/* style for the entire app */
+
+ul{
+  
+}
+ul > li{
+  display: none;
+}
+ul:hover > li{
+  display: block;
+}
+.todo-app {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* style for the header */
+.todo-app header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  width: 100%;
+}
+
+/* style for the menu */
+.todo-app header ul {
+  height: 150px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-app header li {
+  margin-right: 10px;
+}
+
+/* style for the todo header */
+.todo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  padding: 20px;
+  width: 100%;
+}
+
+/* style for the todo list */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* style for individual todo item */
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 80%;
+}
+
+/* style for completed todo item */
+.todo .completed {
+  text-decoration: line-through;
+}
+
+/* style for remove-todo button */
+.remove-todo {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+/* style for add-todo section */
+.add-todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* style for add-todo form */
+.add-todo form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.add-todo input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  margin-right: 10px;
+  background-color: #ddd;
+}
+
+.add-todo button[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.test{
+  background-color: #ff0000;
+}
